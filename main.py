@@ -7,8 +7,8 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup,ReplyKeyboa
 from aiogram.utils import callback_data
 import datetime 
 from datetime import date
-BOT_TOKEN = '6316810112:AAHoKOAlvGQHowIHp5p_s3jASdHuO2JVRI0'
-ADMIN_USERNAME = 'niktoservitor'
+BOT_TOKEN = ''
+ADMIN_USERNAME = ''
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
